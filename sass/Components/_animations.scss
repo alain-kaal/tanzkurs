@@ -1,0 +1,18 @@
+ul.slides li:target {
+  /*la cible d'1 element <a> */
+  z-index: 100; /* priorité elevé => il s'impose !! */
+
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+/* Animation pour les photos */
+@keyframes slide {
+  0% {
+    left: -960px;
+  }
+  100% {
+    left: 0;
+  }
+}

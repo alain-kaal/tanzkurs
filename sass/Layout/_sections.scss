@@ -1,0 +1,13 @@
+/* le corps du site */
+#sections {
+  /* flexbox sera utiliser pour les container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 1px auto;
+}

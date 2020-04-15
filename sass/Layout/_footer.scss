@@ -1,0 +1,15 @@
+footer {
+  width: 100%;
+  max-width: 1200px;
+  height: 70px;
+  background: darkred;
+  text-align: center;
+
+  /*   centrer les elements du footer */
+  p {
+    position: relative;
+    top: 35%;
+  }
+
+  // border: green solid 4px;
+}

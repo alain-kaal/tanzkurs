@@ -1,0 +1,34 @@
+/* Header **/
+header {
+  width: 100%;
+  // max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  background: darkred;
+
+  #branding {
+    margin: 10px;
+  }
+
+  nav {
+    align-self: flex-end;
+    margin: 7px;
+
+    li {
+      display: inline;
+      padding: 0 5px;
+
+      a:link {
+        color: navajowhite;
+        text-decoration: none;
+      }
+      a:focus,
+      a:hover {
+        color: #ffde00;
+      }
+      a:visited {
+        color: lightsalmon;
+      }
+    }
+  }
+}

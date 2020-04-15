@@ -1,0 +1,21 @@
+html,
+body {
+  font-family: "Dancing Script", cursive;
+  width: 100%;
+  height: 100%; /*Important pour regler la hauteur*/
+  background-color: beige;
+  color: navajowhite;
+}
+
+#container {
+  // width: 98%;
+  margin: auto;
+}
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+}
